@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pepsi-landing-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <header>
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenue">
+            <div class="text">
+                <h2>That's What</h2>
+                <h1>I like</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, architecto perspiciatis debitis autem repellendus eius nam expedita, aliquid distinctio molestiae temporibus, quidem voluptates rerum veniam saepe laboriosam vel quas asperiores.</p>
+                <button>View All Products</button>
+            </div>
+            <div class="image">
+                <img src="img/pepsi003.png" id="image">
+            </div>
+            <div class="social">
+                <a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/instagram.png"></a>
+                <a href="#"><img src="img/twitter.png"></a>
+            </div>
+        </div>
+        <div class="links">
+            <ul>
+                <img src="img/pepsi001.png" onclick="change_image(this.src); color('#0062be')">
+                <img src="img/pepsi002.png" onclick="change_image(this.src); color('rgb(230, 12, 44)')">
+                <img src="img/pepsi003.png" onclick="change_image(this.src); color('#1e1e1e')">
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
